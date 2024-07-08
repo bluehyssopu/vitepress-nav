@@ -29,6 +29,22 @@ export const NAV_DATA: NavData[] = [
     title: '前端开发',
     items: [
       {
+        icon: 'https://developer.mozilla.org/apple-touch-icon.6803c6f0.png',
+        title: 'MDN Web Docs',
+        badge: {
+          text: '梦开始的地方',
+          type: 'info'
+        },
+        desc: '从2005年开始记录web技术，包括CSS, HTML和JavaScript',
+        link: 'https://developer.mozilla.org/zh-CN/'
+      },
+      {
+        icon: 'https://toastlog.com/img/logos/cssscan.svg',
+        title: 'CSS box-shadow',
+        desc: '哪个前端能拒绝得了各式各样的盒子阴影，在线预览、一键复制',
+        link: 'https://getcssscan.com/css-box-shadow-examples'
+      },
+      {
         icon: 'https://cn.vuejs.org/logo.svg',
         title: 'Vue2',
         desc: '渐进式 JavaScript 框架',

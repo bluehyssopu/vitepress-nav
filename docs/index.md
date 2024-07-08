@@ -11,7 +11,7 @@ hero:
   actions:
     - theme: brand
       text: 开始
-      link: /getting-started
+      link: /preface
     - theme: alt
       text: GitHub
       link: https://github.com/Yiov/vitepress-doc

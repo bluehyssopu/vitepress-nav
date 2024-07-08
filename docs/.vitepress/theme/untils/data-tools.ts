@@ -32,6 +32,27 @@ export const NAV_DATA: NavData[] = [
     ]
   },
   {
+    title: 'AI对话助手',
+    items: [
+      {
+        icon: 'https://cdn.oaistatic.com/_next/static/media/apple-touch-icon.82af6fe1.png',
+        title: 'ChatGPT',
+        badge: {
+          text: '神',
+          type: 'info'
+        },
+        desc: '还需要我介绍？',
+        link: 'https://www.chatgpt.com/'
+      },
+      {
+        icon: 'https://statics.moonshot.cn/kimi-chat/favicon.ico',
+        title: 'Kimi',
+        desc: '在长文本处理上很不错，结合提示词模版乱杀',
+        link: 'https://kimi.moonshot.cn/'
+      }
+    ]
+  },
+  {
     title: 'PDF',
     items: [
       {
@@ -40,6 +61,23 @@ export const NAV_DATA: NavData[] = [
         desc: '专注于PDF的处理工具，免费、在线、无限制',
         link: 'https://tools.pdf24.org/'
       },
+    ]
+  },
+  {
+    title: 'PPT',
+    items: [
+      {
+        icon: 'https://chatppt.cn/favicon.ico',
+        title: 'ChatPPT',
+        desc: '根据思维导图、文本、主题等一键生成PPT，我经常用它搭基本的架子、布局',
+        link: 'https://chatppt.cn/'
+      },
+      {
+        icon: 'https://www.51pptmoban.com/favicon.ico',
+        title: '51PPT',
+        desc: '转WPS的模版市场前，经常逛的板子网站',
+        link: 'https://www.51pptmoban.com/ppt/'
+      }
     ]
   }
 ]
