@@ -136,6 +136,7 @@ export default defineConfig({
         collapsed: false,
         items: [
           { text: '常用文档', link: '/docs' },
+          { text: '开发工具', link: '/dev-tools' },
         ],
       },
       {

@@ -10,9 +10,9 @@ outline: [2, 3, 4]
 <style src="/.vitepress/theme/style/nav.scss"></style>
 
 <script setup>
-import { NAV_DATA } from '/.vitepress/theme/untils/data-tools.ts'
+import { NAV_DATA } from '/.vitepress/theme/untils/data-dev-tools.ts'
 </script>
 
-# 基础工具
+# 开发工具
 
 <MNavLinks v-for="{title, items} in NAV_DATA" :title="title" :items="items"/>
