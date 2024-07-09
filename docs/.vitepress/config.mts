@@ -96,6 +96,12 @@ export default defineConfig({
               { text: '开发工具', link: '/dev-tools' }
             ],
           },
+          {
+            text: '日常摸鱼',
+            items: [
+              { text: '浮生半日', link: '/slackoff' },
+            ]
+          }
         ],
       },
     ],
@@ -126,6 +132,14 @@ export default defineConfig({
         items: [
           { text: '常用文档', link: '/docs' },
           { text: '开发工具', link: '/dev-tools' },
+        ],
+      },
+      {
+        //分组标题3
+        text: '日常摸鱼',
+        collapsed: false,
+        items: [
+          { text: '浮生半日', link: '/slackoff' },
         ],
       },
       {
