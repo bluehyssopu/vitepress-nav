@@ -29,7 +29,7 @@ export const NAV_DATA: NavData[] = [
         link: 'https://www.52pojie.cn/'
       },
       {
-        icon: 'https:/imyshare.com/static/img/logo.png',
+        icon: 'https://imyshare.com/static/img/logo.png',
         title: '神秘的热心网友',
         desc: '汇集优质的软件工具，学习资源，网站导航，希望可以惊到你',
         link: 'https://imyshare.com/'

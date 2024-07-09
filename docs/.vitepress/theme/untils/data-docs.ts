@@ -3,7 +3,7 @@ import { iconData } from './icon'
 
 export const NAV_DATA: NavData[] = [
   {
-    title: '神',
+    title: '学习笔记',
     items: [
       {
         icon: iconData.quick_reference_icon,
@@ -22,6 +22,12 @@ export const NAV_DATA: NavData[] = [
         title: '阿秀的学习笔记',
         desc: '什么？你也是C++选手？',
         link: 'https://interviewguide.cn/'
+      },
+      {
+        icon: 'https://brucecqm.github.io/bruceblogpages/logo.png',
+        title: 'BruceBlog',
+        desc: '一名前端er的学习笔记，看黑马教程时搭配这个文档学习',
+        link: 'https://brucecqm.github.io/bruceblogpages/'
       }
     ]
   },
@@ -81,11 +87,70 @@ export const NAV_DATA: NavData[] = [
         link: 'https://element-plus.org/zh-CN/component/overview.html'
       },
       {
+        icon: 'https://hexo.io/logo.svg',
+        title: 'Hexo文档',
+        desc: '快速、简洁且高效的博客框架',
+        link: 'https://hexo.io/zh-cn/'
+      },
+      {
         icon: 'https://butterfly.js.org/img/favicon.png',
         title: 'Butterfly主题文档',
         desc: '每个程序员应该都尝试过搭建自己的博客吧',
         link: 'https://butterfly.js.org/'
-      }
+      },
+      {
+        icon: 'https://nodejs.org/static/images/favicons/favicon.png',
+        title: 'Node.js官网',
+        desc: 'Node.js是一个免费、开源、跨平台的 JavaScript 运行时环境，它让开发人员能够创建服务器、Web 应用、命令行工具和脚本。',
+        link: 'https://nodejs.org/zh-cn'
+      },
+      {
+        icon: 'https://img.nodejs.cn/favicon.png',
+        title: 'Node.js中文网',
+        desc: '提供中文API文档、学习教程及下载链接，同时提供众多npm包如 express、koa、mongoose 等框架的学习文档',
+        link: 'https://nodejs.cn/'
+      },
+      {
+        icon: 'https://webpack.docschina.org/icon-square-small.85ba630cf0c5f29ae3e3.svg',
+        title: 'Webpack官网',
+        desc: '打包构建你的静态资源，官网提供中文站点',
+        link: 'https://webpack.js.org/guides/'
+      },
+      {
+        icon: 'https://cn.vuejs.org/logo.svg',
+        title: 'VuePress',
+        desc: 'Vue 驱动的静态网站生成器',
+        link: 'https://vuepress.vuejs.org/zh'
+      },
+      {
+        icon: 'https://vitepress.dev/vitepress-logo-mini.svg',
+        title: 'VitePress',
+        desc: '由 Vite 和 Vue 驱动的静态网站生成器',
+        link: 'https://vitepress.dev'
+      },
     ]
   },
+  {
+    title: '社区论坛',
+    items: [
+      {
+        icon: 'https://github.githubassets.com/favicons/favicon.svg',
+        title: 'Github',
+        desc: '世界上最大的同性交友网站',
+        link: 'https://github.com/'
+      },
+      {
+        icon: 'https://cdn.sstatic.net/Sites/stackoverflow/Img/apple-touch-icon.png?v=c78bd457575a',
+        title: 'Stack Overflow',
+        desc: '全球最大的技术问答网站',
+        link: 'https://stackoverflow.com'
+      },
+      {
+        icon: 'https://lf3-cdn-tos.bytescm.com/obj/static/xitu_juejin_web/6c61ae65d1c41ae8221a670fa32d05aa.svg',
+        title: '掘金',
+        desc: '面向全球中文开发者的技术内容分享与交流平台',
+        link: 'https://juejin.cn/'
+      }
+    ]
+  }
 ]

@@ -51,4 +51,8 @@
   .VPNavBarSearch {
     padding-left: 0;
   }
+
+  .VPNavBar.has-sidebar .content {
+    padding-left: calc((100vw - var(--vp-layout-max-width)) / 2 + var(--vp-sidebar-width) - 32px);
+  }
 }

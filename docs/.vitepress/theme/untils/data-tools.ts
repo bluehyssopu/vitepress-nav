@@ -90,11 +90,27 @@ export const NAV_DATA: NavData[] = [
     title: '图片',
     items: [
       {
+        icon: 'https://photokit.com/favicon.ico',
+        title: 'PhotoKit图片编辑器',
+        badge: {
+          text: '在线PS',
+          type: 'info'
+        },
+        desc: '基于AI人工智能的在线图片编辑器，方便易用。您可以通过编辑器一键抠图、改图、修图、美图等。',
+        link: 'https://photokit.com/?lang=zh'
+      },
+      {
         icon: 'https://xlimage.uzero.cn/shinescan/res/favicon.ico',
         title: '白描网页版',
         desc: '图片文字提取、数学公式识别、电子表格识别、扫描PDF转文字，您是否在找小爱视觉？',
         link: 'https://web.baimiaoapp.com/'
       },
+      {
+        icon: 'https://tool.tanpok.com/favicon.ico',
+        title: 'tanpok工具网',
+        desc: '效果极佳的本地图片压缩工具，永久免费',
+        link: 'https://tool.tanpok.com/#/ImgCompress'
+      }
     ]
   }
 ]

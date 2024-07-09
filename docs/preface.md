@@ -1,3 +1,12 @@
+---
+layout: doc
+layoutClass: m-nav-layout
+sidebar: true
+prev: true
+next: true
+outline: [2, 3, 4]
+---
+
 # 前言
 
 ## 简介
