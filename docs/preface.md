@@ -7,6 +7,8 @@ next: true
 outline: [2, 3, 4]
 ---
 
+<style src="/.vitepress/theme/style/nav.scss"></style>
+
 # 前言
 
 ## 简介

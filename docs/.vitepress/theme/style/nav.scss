@@ -49,10 +49,10 @@
   }
 
   .VPNavBarSearch {
-    padding-left: 0;
+    padding-left: 32px;
   }
 
   .VPNavBar.has-sidebar .content {
-    padding-left: calc((100vw - var(--vp-layout-max-width)) / 2 + var(--vp-sidebar-width) - 32px);
+    padding-left: calc((100% - (var(--vp-layout-max-width) - 64px)) / 2 + var(--vp-sidebar-width) - 32px);
   }
 }

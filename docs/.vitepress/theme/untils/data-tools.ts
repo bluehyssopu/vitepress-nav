@@ -110,7 +110,67 @@ export const NAV_DATA: NavData[] = [
         title: 'tanpok工具网',
         desc: '效果极佳的本地图片压缩工具，永久免费',
         link: 'https://tool.tanpok.com/#/ImgCompress'
+      },
+      {
+        icon: 'http://zuohaotu.com/favicon.ico',
+        title: '做好图',
+        desc: '它的图片拼接功能超好用，很适合大小一致的图拼九宫格',
+        link: 'http://zuohaotu.com/'
       }
+    ]
+  },
+  {
+    title: '素材集市',
+    items: [
+      {
+        icon: 'https://www.iconfont.cn/favicon.ico',
+        title: '阿里图标库',
+        badge: {
+          text: '图标',
+          type: 'info'
+        },
+        desc: '世界上最好用的图标网站',
+        link: 'https://www.iconfont.cn/'
+      },
+      {
+        icon: 'https://cdn-sqn.aigei.com/assets/site/img/logo/aigei_114-114.png',
+        title: '爱给网',
+        badge: {
+          text: '音效',
+          type: 'info'
+        },
+        desc: '经常从这里拿音效和配乐，自媒体必备',
+        link: 'https://www.aigei.com/'
+      },
+      {
+        icon: 'https://www.ssyer.com/favicon.ico',
+        title: '沙沙野',
+        desc: '分享免费的图片和视频，百万素材免费下载可商用',
+        link: 'https://www.ssyer.com/'
+      },
+      {
+        icon: 'https://www.pexels.com/assets/static/images/meta/favicon.ico',
+        title: 'Pexels',
+        desc: '才华横溢的摄影作者在这里免费分享最精彩的素材图片和视频',
+        link: 'https://www.pexels.com/zh-cn/'
+      },
+      {
+        icon: 'https://pixabay.com/favicon.ico',
+        title: 'Pixabay',
+        badge: {
+          text: '图片',
+          type: 'info'
+        },
+        desc: '最好用的无版权图片库，拥有超过4.5百万张优质图片和视频素材，简洁无广免费可商用',
+        link: 'https://pixabay.com/zh/'
+      },
+      {
+        icon: 'https://www.fonts.net.cn/favicon.ico',
+        title: '字体天下',
+        desc: '选择商用免费字体，在线预览，一键下载使用',
+        link: 'https://www.fonts.net.cn/'
+      }
+    
     ]
   }
 ]
