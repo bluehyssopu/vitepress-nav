@@ -51,10 +51,22 @@ export const NAV_DATA: NavData[] = [
         link: 'https://getcssscan.com/css-box-shadow-examples'
       },
       {
+        icon: 'https://www.typescriptlang.org/favicon.ico',
+        title: 'TypeScript',
+        desc: '微软官方源码仓库的文档链接，提供中文',
+        link: 'https://www.typescriptlang.org/docs/'
+      },
+      {
         icon: 'https://cn.vuejs.org/logo.svg',
         title: 'Vue2',
         desc: '渐进式 JavaScript 框架',
         link: 'https://v2.cn.vuejs.org/v2/guide/'
+      },
+      {
+        icon: 'https://react.dev/favicon.ico',
+        title: 'React',
+        desc: '用于构建 Web 和原生交互界面的库，提供中文',
+        link: 'https://react.dev/'
       },
       {
         icon: 'https://cn.vuejs.org/logo.svg',
@@ -112,9 +124,15 @@ export const NAV_DATA: NavData[] = [
       },
       {
         icon: 'https://webpack.docschina.org/icon-square-small.85ba630cf0c5f29ae3e3.svg',
-        title: 'Webpack官网',
+        title: 'Webpack',
         desc: '打包构建你的静态资源，官网提供中文站点',
         link: 'https://webpack.js.org/guides/'
+      },
+      {
+        icon: 'https://vitejs.dev/logo.svg',
+        title: 'Vite',
+        desc: 'Vite 是一个新型前端构建工具，官网提供中文站点',
+        link: 'https://vitejs.dev/'
       },
       {
         icon: 'https://cn.vuejs.org/logo.svg',
