@@ -47,12 +47,20 @@ export const NAV_DATA: NavData[] = [
       {
         icon: 'https://statics.moonshot.cn/kimi-chat/favicon.ico',
         title: 'Kimi',
+        badge: {
+          text: '长文本处理',
+          type: 'info'
+        },
         desc: '在长文本处理上很不错，结合提示词模版乱杀',
         link: 'https://kimi.moonshot.cn/'
       },
       {
         icon: 'https://g.alicdn.com/idst-fe/mind-meeting-assistant2/0.1.8/favicon.png',
         title: '通义听悟',
+        badge: {
+          text: '超长语音转文本',
+          type: 'info'
+        },
         desc: '听悟整理视频文本，kimi分析总结，什么网课笔记、会议纪要，通通拿下！',
         link: 'https://tingwu.aliyun.com/u/p7g395wado69z654'
       }
@@ -93,7 +101,7 @@ export const NAV_DATA: NavData[] = [
         icon: 'https://photokit.com/favicon.ico',
         title: 'PhotoKit图片编辑器',
         badge: {
-          text: '在线PS',
+          text: '在线PS，魔法消除YYDS',
           type: 'info'
         },
         desc: '基于AI人工智能的在线图片编辑器，方便易用。您可以通过编辑器一键抠图、改图、修图、美图等。',
@@ -116,6 +124,16 @@ export const NAV_DATA: NavData[] = [
         title: '做好图',
         desc: '它的图片拼接功能超好用，很适合大小一致的图拼九宫格',
         link: 'http://zuohaotu.com/'
+      },
+      {
+        icon: 'https://bigjpg.com/static/css/touch-icon-ipad.png',
+        title: 'Bigjpg',
+        badge: {
+          text: '无损放大的神',
+          type: 'info'
+        },
+        desc: '免费的在线图片无损放大工具',
+        link: 'https://bigjpg.com/'
       }
     ]
   },
@@ -167,6 +185,10 @@ export const NAV_DATA: NavData[] = [
       {
         icon: 'https://www.fonts.net.cn/favicon.ico',
         title: '字体天下',
+        badge: {
+          text: '字体',
+          type: 'info'
+        },
         desc: '选择商用免费字体，在线预览，一键下载使用',
         link: 'https://www.fonts.net.cn/'
       }
