@@ -8,6 +8,10 @@ export const NAV_DATA: NavData[] = [
       {
         icon: iconData.convertio_icon,
         title: 'Convertio',
+        badge: {
+          text: '转换',
+          type: 'info'
+        },
         desc: '伟大，无需多言！免费支持所有（大概）文件格式转换',
         link: 'https://convertio.co/'
       },
@@ -24,10 +28,14 @@ export const NAV_DATA: NavData[] = [
         link: 'https://tool.browser.qq.com/'
       },
       {
-        icon: '',
-        title: '',
-        desc: '',
-        link: ''
+        icon: 'https://freecompress.com/favicon-16x16.png',
+        title: 'FreeCompress',
+        badge: {
+          text: '压缩',
+          type: 'info'
+        },
+        desc: '随时随地压缩文件，包括图像、视频、音频、代码文件、PDF',
+        link: 'https://freecompress.com/zh-cn'
       },
     ]
   },
@@ -83,6 +91,10 @@ export const NAV_DATA: NavData[] = [
       {
         icon: 'https://chatppt.cn/favicon.ico',
         title: 'ChatPPT',
+        badge: {
+          text: '登录',
+          type: 'info'
+        },
         desc: '根据思维导图、文本、主题等一键生成PPT，我经常用它搭基本的架子、布局',
         link: 'https://chatppt.cn/'
       },
@@ -134,7 +146,41 @@ export const NAV_DATA: NavData[] = [
         },
         desc: '免费的在线图片无损放大工具',
         link: 'https://bigjpg.com/'
+      },
+    ]
+  },
+  {
+    title: '视频',
+    items: [
+      {
+        icon: 'https://www.yalijuda.com/qfy-content/uploads/2020/05/81a83783c78bbe2002d50d4a16c55e21.png',
+        title: '鸭力巨大',
+        desc: '一款完全免费的在线图片/视频压缩工具',
+        link: 'https://www.yalijuda.com/'
+      },
+      {
+        icon: 'https://bigmp4.com/htdocs/favicon.ico',
+        title: 'bigmp4',
+        badge: {
+          text: '登录付费',
+          type: 'danger'
+        },
+        desc: '将视频无损高清放大、增强画质、智能补帧，同时支持黑白视频上色和慢动作',
+        link: 'https://bigmp4.com/'
+      },
+      {
+        icon: iconData.youla_icon,
+        title: '有啦拼字幕',
+        desc: '视频字幕拼接，现仅提供小程序端的服务',
+        link: 'https://yoo.la/'
+      },
+      {
+        icon: '/logo.svg',
+        title: '截图拼接工具',
+        desc: '视频字幕拼接，支持网页端，网站无图标',
+        link: 'https://join-screenshots.zhanghai.me/'
       }
+
     ]
   },
   {
@@ -161,12 +207,6 @@ export const NAV_DATA: NavData[] = [
         link: 'https://www.aigei.com/'
       },
       {
-        icon: 'https://www.ssyer.com/favicon.ico',
-        title: '沙沙野',
-        desc: '分享免费的图片和视频，百万素材免费下载可商用',
-        link: 'https://www.ssyer.com/'
-      },
-      {
         icon: 'https://www.pexels.com/assets/static/images/meta/favicon.ico',
         title: 'Pexels',
         desc: '才华横溢的摄影作者在这里免费分享最精彩的素材图片和视频',
@@ -191,7 +231,27 @@ export const NAV_DATA: NavData[] = [
         },
         desc: '选择商用免费字体，在线预览，一键下载使用',
         link: 'https://www.fonts.net.cn/'
-      }
+      },
+      {
+        icon: 'https://free-stock.video/public/291713-32.png',
+        title: 'Free Stock Video',
+        badge: {
+          text: '视频',
+          type: 'info'
+        },
+        desc: '免费4K影片片段素材，可商用',
+        link: 'https://free-stock.video/'
+      },
+      {
+        icon: 'https://www.ssyer.com/favicon.ico',
+        title: '沙沙野',
+        badge: {
+          text: '登录',
+          type: 'danger'
+        },
+        desc: '分享免费的图片和视频，百万素材免费下载可商用',
+        link: 'https://www.ssyer.com/'
+      },
     
     ]
   }
