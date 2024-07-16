@@ -147,11 +147,29 @@ export const NAV_DATA: NavData[] = [
         desc: '免费的在线图片无损放大工具',
         link: 'https://bigjpg.com/'
       },
+      {
+        icon: 'https://removebg.one/static/images/common/logo.svg',
+        title: 'Removebg',
+        desc: '免费在线图片去背景',
+        link: 'https://removebg.one/'
+      },
+      {
+        icon: 'https://www.vectorpea.com/icon512.png',
+        title: 'Vectorpea',
+        desc: '在线的矢量图编辑器，免登录，很适合编辑iconfont的图标',
+        link: 'https://www.vectorpea.com/'
+      },
     ]
   },
   {
     title: '视频',
     items: [
+      {
+        icon: 'https://gotovlog.com/assets/images/favicon.ico',
+        title: 'GOTOVLOG',
+        desc: '你的视频创作指南，极地手记',
+        link: 'https://gotovlog.com/'
+      },
       {
         icon: 'https://www.yalijuda.com/qfy-content/uploads/2020/05/81a83783c78bbe2002d50d4a16c55e21.png',
         title: '鸭力巨大',
@@ -209,6 +227,10 @@ export const NAV_DATA: NavData[] = [
       {
         icon: 'https://www.pexels.com/assets/static/images/meta/favicon.ico',
         title: 'Pexels',
+        badge: {
+          text: '图片视频',
+          type: 'info'
+        },
         desc: '才华横溢的摄影作者在这里免费分享最精彩的素材图片和视频',
         link: 'https://www.pexels.com/zh-cn/'
       },
@@ -216,7 +238,7 @@ export const NAV_DATA: NavData[] = [
         icon: 'https://pixabay.com/favicon.ico',
         title: 'Pixabay',
         badge: {
-          text: '图片',
+          text: '图片视频',
           type: 'info'
         },
         desc: '最好用的无版权图片库，拥有超过4.5百万张优质图片和视频素材，简洁无广免费可商用',
