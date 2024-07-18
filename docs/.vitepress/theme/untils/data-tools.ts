@@ -162,6 +162,21 @@ export const NAV_DATA: NavData[] = [
     ]
   },
   {
+    title: '思维导图',
+    items: [
+      {
+        icon: 'https://www.processon.com/favicon.ico',
+        title: 'ProcessOn',
+        badge: {
+          text: '登录',
+          type: 'danger'
+        },
+        desc: '免费在线流程图思维导图，支持多人实时在线协作',
+        link: 'https://www.processon.com/'
+      }
+    ]
+  },
+  {
     title: '视频',
     items: [
       {

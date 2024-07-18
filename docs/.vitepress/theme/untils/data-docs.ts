@@ -154,21 +154,63 @@ export const NAV_DATA: NavData[] = [
       {
         icon: 'https://github.githubassets.com/favicons/favicon.svg',
         title: 'Github',
+        badge: {
+          text: '推荐',
+          type: 'tip'
+        },
         desc: '世界上最大的同性交友网站',
         link: 'https://github.com/'
       },
       {
         icon: 'https://cdn.sstatic.net/Sites/stackoverflow/Img/apple-touch-icon.png?v=c78bd457575a',
         title: 'Stack Overflow',
+        badge: {
+          text: '推荐',
+          type: 'tip'
+        },
         desc: '全球最大的技术问答网站',
         link: 'https://stackoverflow.com'
       },
       {
         icon: 'https://lf3-cdn-tos.bytescm.com/obj/static/xitu_juejin_web/6c61ae65d1c41ae8221a670fa32d05aa.svg',
         title: '掘金',
+        badge: {
+          text: '推荐',
+          type: 'tip'
+        },
         desc: '面向全球中文开发者的技术内容分享与交流平台',
         link: 'https://juejin.cn/'
-      }
+      },
+      // {
+      //   icon: '',
+      //   title: '个人建议：',
+      //   desc: '后面的论坛少逛，容易高血压',
+      //   link: 'https://nav.kzmqvq.com'
+      // },
+      {
+        icon: 'https://www.csdn.net/favicon.ico',
+        title: 'CSDN',
+        desc: '你喜欢在垃圾堆里刨金子吗',
+        link: 'https://www.csdn.net/'
+      },
+      {
+        icon: 'https://www.zhihu.com/favicon.ico',
+        title: '知乎',
+        desc: '每次搜索笔记，都提醒我请登录',
+        link: 'https://www.zhihu.com/'
+      },
+      {
+        icon: 'https://www.cnblogs.com/favicon.ico',
+        title: '博客园',
+        desc: '页面十分简洁，专注内容，以至于我感觉在看老报纸……',
+        link: 'https://www.cnblogs.com/'
+      },
+      {
+        icon: 'https://www.jianshu.com/favicon.ico',
+        title: '简书',
+        desc: '现在已经变成小说网站的形状了',
+        link: 'https://www.jianshu.com/'
+      },
     ]
-  }
+  },
 ]
