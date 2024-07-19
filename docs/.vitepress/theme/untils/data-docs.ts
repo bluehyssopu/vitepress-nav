@@ -28,6 +28,12 @@ export const NAV_DATA: NavData[] = [
         title: 'BruceBlog',
         desc: '一名前端er的学习笔记，看黑马教程时搭配这个文档学习',
         link: 'https://brucecqm.github.io/bruceblogpages/'
+      },
+      {
+        icon: 'https://muyiy.cn/favicon.ico',
+        title: '木易杨前端进阶',
+        desc: '高级前端进阶之路，能力提升、面试经验、求职内推等',
+        link: 'https://muyiy.cn/'
       }
     ]
   },
@@ -149,6 +155,17 @@ export const NAV_DATA: NavData[] = [
     ]
   },
   {
+    title: '后端开发',
+    items: [
+      {
+        icon: 'https://potoyang.gitbook.io/spring-in-action-v5/~gitbook/icon?size=small&theme=light',
+        title: 'Spring 实战(第 5 版)',
+        desc: '哥们实习期转岗就啃的这本gitbook',
+        link: 'https://potoyang.gitbook.io/spring-in-action-v5'
+      },
+    ]
+  },
+  {
     title: '社区论坛',
     items: [
       {
@@ -181,6 +198,18 @@ export const NAV_DATA: NavData[] = [
         desc: '面向全球中文开发者的技术内容分享与交流平台',
         link: 'https://juejin.cn/'
       },
+      {
+        icon: 'https://assets.leetcode.cn/aliyun-lc-upload/uploaded_files/2021/03/73c9f099-abbe-4d94-853f-f8abffd459cd/leetcode.png?x-oss-process=image%2Fformat%2Cwebp',
+        title: 'LeetCode',
+        desc: 'wrong answer, compiler error, timeout',
+        link: 'https://leetcode.cn/'
+      },
+      {
+        icon: 'https://www.nowcoder.com/favicon.ico',
+        title: '牛客网',
+        desc: '在？看看面经',
+        link: 'https://www.nowcoder.com/'
+      },
       // {
       //   icon: '',
       //   title: '个人建议：',
@@ -194,7 +223,7 @@ export const NAV_DATA: NavData[] = [
         link: 'https://www.csdn.net/'
       },
       {
-        icon: 'https://www.zhihu.com/favicon.ico',
+        icon: 'https://static.zhihu.com/heifetz/assets/apple-touch-icon-152.81060cab.png',
         title: '知乎',
         desc: '每次搜索笔记，都提醒我请登录',
         link: 'https://www.zhihu.com/'
@@ -213,4 +242,27 @@ export const NAV_DATA: NavData[] = [
       },
     ]
   },
+  {
+    title: '在线教程',
+    items: [
+      {
+        icon: 'https://www.runoob.com/favicon.ico',
+        title: '菜鸟教程',
+        desc: '适合初学者零基础的开发人员',
+        link: 'https://www.runoob.com/'
+      },
+      {
+        icon: 'https://www.w3school.com.cn/ui2019/logo-180.png',
+        title: 'W3school 在线教程',
+        desc: '领先的 Web 技术教程，全部免费',
+        link: 'https://www.w3school.com.cn/'
+      },
+      {
+        icon: 'https://www.w3cschool.cn/favicon.ico',
+        title: 'W3Cschool 编程狮',
+        desc: '免费的在线编程入门教程&技术文档，随时随地学编程',
+        link: 'https://www.w3cschool.cn/tutorial'
+      }
+    ]
+  }
 ]
