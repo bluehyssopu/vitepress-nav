@@ -10,7 +10,11 @@ export default defineConfig({
   // #region fav
   head: [
     ['link',{ rel: 'icon', href: '/logo.svg'}],
-    ['link',{ rel: 'icon', href: '/favicon.ico'}]
+    ['meta',{ property: 'og:url', content: 'https://nav.kzmqvq.com'}],
+    ['meta',{ property: 'og:type', content: 'website'}],
+    ['meta',{ property: 'og:title', content: '某菜鸟的导航站'}],
+    ['meta',{ property: 'og:description', content: '整理个人工作、学习、生活中的常用网站，提高生产效率，也帮助那个的曾经的自己'}],
+    ['meta',{ property: 'og:image', content: 'https://nav.kzmqvq.com/logo.svg'}],
   ],
   // #endregion fav
 
