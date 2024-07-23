@@ -82,5 +82,90 @@ export const NAV_DATA: NavData[] = [
         link: 'https://www.shidianguji.com/'
       }
     ]
+  },
+  {
+    title: "书籍推荐",
+    items: [
+      {
+        icon: 'https://cdn.weread.qq.com/weread/cover/84/3300024284/t6_3300024284.jpg',
+        title: '毛泽东选集',
+        badge: {
+          text: '微信读书',
+          type: 'info'
+        },
+        desc: '小时候在大人的教育下崇拜他，少年时在敌人的忽悠下质疑他，长大后在自己的探索中找到他',
+        link: 'https://weread.qq.com/web/reader/2bb32ff0813ab6ffcg014315'
+      },
+      {
+        icon: 'https://wfqqreader-1252317822.image.myqcloud.com/cover/44/674044/t6_674044.jpg',
+        title: '我与地坛',
+        badge: {
+          text: '微信读书',
+          type: 'info'
+        },
+        desc: '走啊铁生，去踢球啊',
+        link: 'https://weread.qq.com/web/reader/43f327705a48fc43feb9160'
+      },
+      {
+        icon: 'https://wfqqreader-1252317822.image.myqcloud.com/cover/464/834464/t6_834464.jpg',
+        title: '活着',
+        badge: {
+          text: '微信读书',
+          type: 'info'
+        },
+        desc: '人是为活着本身而活着，而不是为了活着之外的任何事物所活着。',
+        link: 'https://weread.qq.com/web/reader/33332bf05cbba0333b1efb4'
+      },
+      {
+        icon: 'https://www.bqgui.cc/bookimg/10/10250.jpg',
+        title: '蛊真人',
+        badge: {
+          text: '笔趣阁',
+          type: 'info'
+        },
+        desc: '早岁已知世事艰，仍许飞鸿荡云间。一路寒风身如絮，命海沉浮客独行',
+        link: 'https://www.bqgui.cc/book/10457/'
+      },
+      {
+        icon: 'https://www.bqgui.cc/bookimg/3/3592.jpg',
+        title: '全职高手',
+        badge: {
+          text: '笔趣阁',
+          type: 'info'
+        },
+        desc: '我可是职业选手，你以为呢',
+        link: 'https://www.bqgui.cc/book/3311/'
+      },
+      {
+        icon: 'https://www.bqgui.cc/bookimg/0/587.jpg',
+        title: '修真聊天群',
+        badge: {
+          text: '笔趣阁',
+          type: 'info'
+        },
+        desc: '在下霸宋，今年十八，请多多指教',
+        link: 'https://www.bqgui.cc/book/632/'
+      },
+      {
+        icon: 'https://www.bqgui.cc/bookimg/0/24.jpg',
+        title: '我师兄实在太稳健了',
+        badge: {
+          text: '笔趣阁',
+          type: 'info'
+        },
+        desc: '此番渡劫只有九成八的把握，四舍五入和送死有什么区别！',
+        link: 'https://www.bqgui.cc/book/383/'
+      },
+      {
+        icon: 'https://www.bqgui.cc/bookimg/1/1000.jpg',
+        title: '剑来',
+        badge: {
+          text: '笔趣阁',
+          type: 'info'
+        },
+        desc: '我陈平安唯有一剑',
+        link: 'https://www.bqgui.cc/book/1031/'
+      }
+    ]
   }
 ]
