@@ -40,7 +40,36 @@ export const NAV_DATA: NavData[] = [
         desc: '在阿里云盘限速前经常用这个，后来发现度盘还是香',
         link: 'https://aliyun.panpanr.top/'
       },
+      {
+        icon: 'https://www.bilibili.com/favicon.ico',
+        title: 'bilibili',
+        desc: '大学生自学网站，高数、大物、C++、模电应有尽有',
+        link: 'https://www.bilibili.com/'
+      }
       
+    ]
+  },
+  {
+    title: '推荐教程',
+    items: [
+      {
+        icon: 'https://cdn.sa.net/2024/07/23/2wZJUCb7DcenfsW.jpg',
+        title: '跟我学个P',
+        desc: '很有趣的小姐姐',
+        link: 'https://space.bilibili.com/98812108'
+      },
+      {
+        icon: 'https://cdn.sa.net/2024/07/23/1fNewcrCFmyhX5B.jpg',
+        title: '旁门左道PPT',
+        desc: '',
+        link: 'https://space.bilibili.com/395619513'
+      },
+      {
+        icon: 'https://cdn.sa.net/2024/07/23/CPp3Dm8Y4FRbGrf.jpg',
+        title: '利兄日志PPT',
+        desc: '',
+        link: 'https://space.bilibili.com/492622111'
+      }
     ]
   }
 ]
