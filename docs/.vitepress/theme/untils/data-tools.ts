@@ -240,7 +240,7 @@ export const NAV_DATA: NavData[] = [
         link: 'https://www.aigei.com/'
       },
       {
-        icon: 'https://www.pexels.com/assets/static/images/meta/favicon.ico',
+        icon: 'https://cdn.sa.net/2024/09/04/2AdXvCDteh7rcZx.jpg',
         title: 'Pexels',
         badge: {
           text: '图片视频',
@@ -250,7 +250,7 @@ export const NAV_DATA: NavData[] = [
         link: 'https://www.pexels.com/zh-cn/'
       },
       {
-        icon: 'https://pixabay.com/favicon.ico',
+        icon: 'https://cdn.sa.net/2024/09/04/BydY8qhOjUEKCso.png',
         title: 'Pixabay',
         badge: {
           text: '图片视频',

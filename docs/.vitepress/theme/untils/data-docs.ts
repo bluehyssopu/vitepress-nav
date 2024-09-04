@@ -158,7 +158,7 @@ export const NAV_DATA: NavData[] = [
     title: '后端开发',
     items: [
       {
-        icon: 'https://potoyang.gitbook.io/spring-in-action-v5/~gitbook/icon?size=small&theme=light',
+        icon: 'https://cdn.sa.net/2024/09/04/2PrFUo9aGmb5pgl.webp',
         title: 'Spring 实战(第 5 版)',
         desc: '哥们实习期转岗就啃的这本gitbook',
         link: 'https://potoyang.gitbook.io/spring-in-action-v5'
