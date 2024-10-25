@@ -91,6 +91,7 @@ export default defineConfig({
             items: [
               { text: '办公提效', link: '/getting-started' },
               { text: '资源网站', link: '/resources' },
+              { text: '网盘资料', link: '/pansource' }
             ],
           },
           {
@@ -127,7 +128,8 @@ export default defineConfig({
         collapsed: false,
         items: [
           { text: '办公提效', link: '/getting-started' },
-          { text: '资源网站', link: '/resources' }
+          { text: '资源网站', link: '/resources' },
+          { text: '网盘资料', link: '/pansource' }
         ],
       },
       {
