@@ -65,3 +65,9 @@
   border-left: 4px solid #e95f59;
 }
  
+/* 侧边栏 */
+.VPSidebarItem .items {
+  padding-left: 18px;
+  padding-top: 10px;
+  overflow: hidden;
+}
