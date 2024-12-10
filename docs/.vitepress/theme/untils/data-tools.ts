@@ -3,7 +3,7 @@ import { iconData } from './icon'
 
 export const NAV_DATA: NavData[] = [
   {
-    title: '集成工具箱',
+    title: '🛠️ 集成工具箱',
     items: [
       {
         icon: iconData.convertio_icon,
@@ -40,7 +40,7 @@ export const NAV_DATA: NavData[] = [
     ]
   },
   {
-    title: 'AI对话助手',
+    title: '🤖 AI对话助手',
     items: [
       {
         icon: 'https://cdn.oaistatic.com/_next/static/media/apple-touch-icon.82af6fe1.png',
@@ -75,7 +75,7 @@ export const NAV_DATA: NavData[] = [
     ]
   },
   {
-    title: 'PDF',
+    title: '📄 PDF',
     items: [
       {
         icon: 'https://tools.pdf24.org/static/img/pdf24.png?v=658057a1',
@@ -86,7 +86,7 @@ export const NAV_DATA: NavData[] = [
     ]
   },
   {
-    title: 'PPT',
+    title: '📊 PPT',
     items: [
       {
         icon: 'https://chatppt.cn/favicon.ico',
@@ -107,7 +107,7 @@ export const NAV_DATA: NavData[] = [
     ]
   },
   {
-    title: '图片',
+    title: '🖼️ 图片',
     items: [
       {
         icon: 'https://photokit.com/favicon.ico',
@@ -162,7 +162,7 @@ export const NAV_DATA: NavData[] = [
     ]
   },
   {
-    title: '思维导图',
+    title: '🧠 思维导图',
     items: [
       {
         icon: 'https://www.processon.com/favicon.ico',
@@ -177,7 +177,7 @@ export const NAV_DATA: NavData[] = [
     ]
   },
   {
-    title: '视频',
+    title: '🎬 视频',
     items: [
       {
         icon: 'https://gotovlog.com/assets/images/favicon.ico',
@@ -217,7 +217,7 @@ export const NAV_DATA: NavData[] = [
     ]
   },
   {
-    title: '素材集市',
+    title: '🎨 素材集市',
     items: [
       {
         icon: 'https://www.iconfont.cn/favicon.ico',

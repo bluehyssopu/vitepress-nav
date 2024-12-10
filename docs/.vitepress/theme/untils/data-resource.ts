@@ -3,7 +3,7 @@ import { iconData } from './icon'
 
 export const NAV_DATA: NavData[] = [
   {
-    title: '唯一真神',
+    title: '🌟 唯一真神',
     items: [
       {
         icon: 'https://github.githubassets.com/favicons/favicon.svg',
@@ -14,7 +14,7 @@ export const NAV_DATA: NavData[] = [
     ]
   },
   {
-    title: '常用站点',
+    title: '🔥 常用站点',
     items: [
       {
         icon: 'https://www.ghxi.com/wp-content/uploads/2019/12/2020logo.png',
@@ -50,7 +50,7 @@ export const NAV_DATA: NavData[] = [
     ]
   },
   {
-    title: '推荐教程',
+    title: '📚 推荐教程',
     items: [
       {
         icon: 'https://cdn.sa.net/2024/07/23/2wZJUCb7DcenfsW.jpg',

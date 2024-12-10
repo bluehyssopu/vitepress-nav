@@ -3,7 +3,7 @@ import { iconData } from './icon'
 
 export const NAV_DATA: NavData[] = [
   {
-    title: '通用考试',
+    title: '📚 通用考试',
     items: [
       {
         icon: 'https://nav.kzmqvq.com/logo.svg',
@@ -93,7 +93,7 @@ export const NAV_DATA: NavData[] = [
     ]
   },
   {
-    title: '光影人生',
+    title: '🎬 光影人生',
     items: [
       {
         icon: 'https://nav.kzmqvq.com/logo.svg',
@@ -110,7 +110,7 @@ export const NAV_DATA: NavData[] = [
     ]
   },
   {
-    title: 'AIGC资料',
+    title: '🤖 AIGC资料',
     items: [
       {
         icon: 'https://nav.kzmqvq.com/logo.svg',

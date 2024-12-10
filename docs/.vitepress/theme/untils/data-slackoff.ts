@@ -3,7 +3,7 @@ import { iconData } from './icon'
 
 export const NAV_DATA: NavData[] = [
   {
-    title: '在线游戏',
+    title: '🎮 在线游戏',
     items: [
       {
         icon: iconData.xiaobawang_icon,
@@ -38,7 +38,7 @@ export const NAV_DATA: NavData[] = [
     ]
   },
   {
-    title: '经典单机',
+    title: '🎲 经典单机',
     items: [
       {
         icon: 'https://pvzgame.net/_next/static/media/favicon.50d1e6c9.svg',
@@ -55,7 +55,7 @@ export const NAV_DATA: NavData[] = [
     ]
   },
   {
-    title: '有趣网站',
+    title: '🎯 有趣网站',
     items: [
       {
         icon: 'http://a.topurl.cn/favicon.ico',
@@ -84,7 +84,7 @@ export const NAV_DATA: NavData[] = [
     ]
   },
   {
-    title: "书籍推荐",
+    title: "📚 书籍推荐",
     items: [
       {
         icon: 'https://cdn.weread.qq.com/weread/cover/84/3300024284/t6_3300024284.jpg',

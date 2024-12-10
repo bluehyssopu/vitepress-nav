@@ -3,7 +3,7 @@ import { iconData } from './icon'
 
 export const NAV_DATA: NavData[] = [
   {
-    title: '学习笔记',
+    title: '📝 学习笔记',
     items: [
       {
         icon: iconData.quick_reference_icon,
@@ -38,7 +38,7 @@ export const NAV_DATA: NavData[] = [
     ]
   },
   {
-    title: '前端开发',
+    title: '🌐 前端开发',
     items: [
       {
         icon: 'https://developer.mozilla.org/apple-touch-icon.6803c6f0.png',
@@ -155,7 +155,7 @@ export const NAV_DATA: NavData[] = [
     ]
   },
   {
-    title: '后端开发',
+    title: '⚙️ 后端开发',
     items: [
       {
         icon: 'https://cdn.sa.net/2024/09/04/2PrFUo9aGmb5pgl.webp',
@@ -166,7 +166,7 @@ export const NAV_DATA: NavData[] = [
     ]
   },
   {
-    title: '社区论坛',
+    title: '👥 社区论坛',
     items: [
       {
         icon: 'https://github.githubassets.com/favicons/favicon.svg',
@@ -243,7 +243,7 @@ export const NAV_DATA: NavData[] = [
     ]
   },
   {
-    title: '在线教程',
+    title: '📚 在线教程',
     items: [
       {
         icon: 'https://www.runoob.com/favicon.ico',

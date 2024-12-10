@@ -3,7 +3,7 @@ import { iconData } from './icon'
 
 export const NAV_DATA: NavData[] = [
   {
-    title: '开发工具',
+    title: '🛠️ 开发工具',
     items: [
       {
         icon: 'https://shields.io/img/favicon.ico',
