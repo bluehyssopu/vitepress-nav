@@ -74,38 +74,35 @@ export default defineConfig({
 
     //导航栏
     nav: [
-      { text: '首页', link: '/' },
+      { text: '🏠 首页', link: '/' },
       {
-        text: '指南',
+        text: '📚 指南',
         items: [
           {
-            // 分组标题1
-            text: '介绍',
+            text: '💡 介绍',
             items: [
-              { text: '前言', link: '/preface' },
+              { text: '📖 前言', link: '/preface' },
             ],
           },
           {
-            // 分组标题2
-            text: '基础工具',
+            text: '🛠️ 基础工具',
             items: [
-              { text: '办公提效', link: '/getting-started' },
-              { text: '资源网站', link: '/resources' },
-              { text: '网盘资料', link: '/pansource' }
+              { text: '💼 办公提效', link: '/getting-started' },
+              { text: '🔍 资源网站', link: '/resources' },
+              { text: '☁️ 网盘资料', link: '/pansource' }
             ],
           },
           {
-            // 分组标题3
-            text: '程序员必备',
+            text: '💻 程序员必备',
             items: [
-              { text: '常用文档', link: '/docs' },
-              { text: '开发工具', link: '/dev-tools' }
+              { text: '📑 常用文档', link: '/docs' },
+              { text: '🔧 开发工具', link: '/dev-tools' }
             ],
           },
           {
-            text: '日常摸鱼',
+            text: '🎮 日常摸鱼',
             items: [
-              { text: '浮生半日', link: '/slackoff' },
+              { text: '🌅 浮生半日', link: '/slackoff' },
             ]
           }
         ],
@@ -115,46 +112,41 @@ export default defineConfig({
     //侧边栏
     sidebar: [
       {
-        //分组标题1
-        text: '介绍',
+        text: '💡 介绍',
         collapsed: false,
         items: [
-          { text: '前言', link: '/preface' },
+          { text: '📖 前言', link: '/preface' },
         ],
       },
       {
-        //分组标题2
-        text: '基础工具',
+        text: '🛠️ 基础工具',
         collapsed: false,
         items: [
-          { text: '办公提效', link: '/getting-started' },
-          { text: '资源网站', link: '/resources' },
-          { text: '网盘资料', link: '/pansource' }
+          { text: '💼 办公提效', link: '/getting-started' },
+          { text: '🔍 资源网站', link: '/resources' },
+          { text: '☁️ 网盘资料', link: '/pansource' }
         ],
       },
       {
-        //分组标题3
-        text: '程序员必备',
+        text: '💻 程序员必备',
         collapsed: false,
         items: [
-          { text: '常用文档', link: '/docs' },
-          { text: '开发工具', link: '/dev-tools' },
+          { text: '📑 常用文档', link: '/docs' },
+          { text: '🔧 开发工具', link: '/dev-tools' },
         ],
       },
       {
-        //分组标题3
-        text: '日常摸鱼',
+        text: '🎮 日常摸鱼',
         collapsed: false,
         items: [
-          { text: '浮生半日', link: '/slackoff' },
+          { text: '🌅 浮生半日', link: '/slackoff' },
         ],
       },
       {
-        //分组标题3
-        text: '其他站点',
+        text: '🔗 其他站点',
         collapsed: false,
         items: [
-          { text: '博客', link: 'https://blog.kzmqvq.com/' },
+          { text: '📝 博客', link: 'https://blog.kzmqvq.com/' },
         ],
       },
     ],
