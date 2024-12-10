@@ -43,3 +43,25 @@
   .vp-doc a {
     text-decoration: none;
   }
+
+  .VPBadge {
+    font-size: 14px;
+    font-weight: 600;
+    color: #ffffff !important;
+  }
+  
+  .VPBadge.info {
+    background-color: #7eb6f7;
+  }
+  
+  .VPBadge.tip {
+    background-color: #7dda4e;
+  }
+  
+  .VPBadge.warning {
+    background-color: #ffd768;
+  }
+  
+  .VPBadge.danger {
+    background-color: #f85757;
+  } 

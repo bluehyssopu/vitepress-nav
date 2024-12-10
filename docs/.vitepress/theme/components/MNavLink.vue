@@ -91,6 +91,8 @@ onMounted(() => {
   border-radius: 12px;
   height: 100%;
   background-color: var(--vp-c-bg-soft);
+  // box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.08);
+  // background-color: var(--vp-c-bg);
   transition: all 0.25s;
   &:hover {
     box-shadow: var(--vp-shadow-2);
