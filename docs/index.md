@@ -29,6 +29,18 @@ features:
   - icon: 🐟
     title: 摸鱼加油站
     details: 打工挣的钱叫窝囊废，摸鱼挣的钱才是利润，要来点电子榨菜吗华生？
+  - icon: 🎮
+    title: 游戏乐园站
+    details: 精选各类在线小游戏、怀旧游戏、休闲游戏，让你在工作之余放松身心，享受快乐时光
+  - icon: 🎬
+    title: 影视宝藏库
+    details: 收录优质影视资源网站，支持在线观看和下载，告别广告弹窗，享受纯净观影体验
+  - icon: 🎨
+    title: 创意灵感集
+    details: 整理优质设计素材、配色方案、字体资源，为你的设计工作提供源源不断的创意灵感
+  - icon: 🔧
+    title: 编程助手站
+    details: 汇总常用开发文档、代码片段、在线编程工具，提高开发效率，让编程事半功倍
 ---
 
 <style>
@@ -39,6 +51,24 @@ features:
 
   /* --vp-home-hero-image-background-image: linear-gradient(-45deg, #bd34fe 50%, #47caff 50%); */
   --vp-home-hero-image-filter: blur(40px);
+}
+
+.VPHome .VPFeatures .box {
+  background-color: var(--vp-c-bg);
+  border-radius: 12px;
+  padding: 20px;
+  height: 100%;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
+  border: none !important;
+  display: flex;
+  flex-direction: column;
+}
+
+.VPHome .VPFeatures .box:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.12);
+  background-color: var(--vp-c-bg);
 }
 
 </style>
