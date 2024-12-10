@@ -1,9 +1,10 @@
 <script setup lang="ts">
-import { computed } from 'vue'
+import { computed, ref, onMounted } from 'vue'
 import { withBase } from 'vitepress'
 import { slugify } from '@mdit-vue/shared'
 
 import { NavLink } from '../untils/types'
+import MTooltip from './MTooltip.vue'
 
 const props = defineProps<{
   noIcon?: boolean
@@ -32,6 +33,22 @@ const formatBadge = computed(() => {
   }
   return props.badge
 })
+
+// 添加一个方法来检查文本是否被截断
+const isTextTruncated = (element: HTMLElement) => {
+  return element.scrollHeight > element.clientHeight
+}
+
+// 添加一个 ref 来存储是否显示 tooltip
+const descRef = ref<HTMLElement | null>(null)
+const shouldShowTooltip = ref(false)
+
+// 在元素挂载后检查是否需要显示 tooltip
+onMounted(() => {
+  if (descRef.value) {
+    shouldShowTooltip.value = isTextTruncated(descRef.value)
+  }
+})
 </script>
 
 <template>
@@ -53,7 +70,12 @@ const formatBadge = computed(() => {
         </h5>
       </div>
       <Badge v-if="formatBadge" class="badge" :type="formatBadge.type" :text="formatBadge.text" />
-      <p v-if="desc" class="desc">{{ desc }}</p>
+      <template v-if="desc">
+        <MTooltip v-if="shouldShowTooltip" :content="desc">
+          <div ref="descRef" class="desc">{{ desc }}</div>
+        </MTooltip>
+        <div v-else ref="descRef" class="desc">{{ desc }}</div>
+      </template>
     </article>
   </a>
 </template>
@@ -135,11 +157,11 @@ const formatBadge = computed(() => {
   }
 
   .desc {
+    overflow: hidden;
+    text-overflow: ellipsis;
     display: -webkit-box;
     -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
-    overflow: hidden;
-    text-overflow: ellipsis;
     flex-grow: 1;
     margin: calc(var(--m-nav-box-gap) - 2px) 0 0;
     line-height: 1.5;
