@@ -178,7 +178,7 @@ export default defineConfig({
 
     //社交链接
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/Yiov/vitepress-doc' },
+      { icon: 'github', link: 'https://github.com/bluehyssopu/vitepress-nav' },
     ],
 
     //手机端深浅模式文字修改

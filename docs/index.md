@@ -14,7 +14,7 @@ hero:
       link: /preface
     - theme: alt
       text: GitHub
-      link: https://github.com/Yiov/vitepress-doc
+      link: https://github.com/bluehyssopu
 
 features:
   - icon: 🛠️
