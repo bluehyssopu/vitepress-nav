@@ -7,6 +7,16 @@ export default defineConfig({
   title: "某菜鸟的导航站",
   description: "整理个人工作、学习、生活中的常用网站，提高生产效率，也帮助那个的曾经的自己",
 
+  // 添加 vite 配置
+  vite: {
+    ssr: {
+      noExternal: ['@vueuse/core']
+    },
+    optimizeDeps: {
+      include: ['@vueuse/core']
+    }
+  },
+
   // #region fav
   head: [
     ['link',{ rel: 'icon', href: '/logo.svg'}],
@@ -62,7 +72,7 @@ export default defineConfig({
   },
 
   
-  //主题配置
+  //主题��置
   themeConfig: {
     //左上角logo
     logo: '/logo.svg',
@@ -163,7 +173,7 @@ export default defineConfig({
                 buttonAriaLabel: '搜索文档'
               },
               modal: {
-                noResultsText: '无法找到相关结果',
+                noResultsText: '无法找到相关���果',
                 resetButtonTitle: '清除查询条件',
                 footer: {
                   selectText: '选择',
